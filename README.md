@@ -42,7 +42,13 @@ We assign static private IP addresses, configure custom DNS settings, and test n
 <h2>🛠️ Step 1: Create Resource Group and Virtual Machines</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="949" alt="Screenshot 2025-05-28 at 8 50 39 PM" src="https://github.com/user-attachments/assets/3f5afa48-dc28-4436-b8b1-923299325f58" />
+
+<img width="948" alt="Screenshot 2025-05-28 at 8 49 12 PM" src="https://github.com/user-attachments/assets/40f46868-5acc-43ff-a233-d51b5bbb3f5f" />
+
+
+<img width="948" alt="Screenshot 2025-05-28 at 8 50 10 PM" src="https://github.com/user-attachments/assets/e756afc0-b655-4103-b649-1b522fb9c7fc" />
+
 </p>
 <p>
 - Log into the Azure Portal and navigate to Resource groups.
