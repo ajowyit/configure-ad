@@ -4,8 +4,10 @@
 
 <h1>Deployment and Configuration of Active Directory in the Cloud with Microsoft Azure</h1>
 
+In this project, we set up the foundation for an Active Directory environment in Microsoft Azure. We use a Windows Server 2022 virtual machine as the Domain Controller and a Windows 10 virtual machine as the client.
 
-In this project, we will walk through comfiguring and deploying an Active Directory  in the Cloud within Microsoft Azure virtual machines.
+We assign static private IP addresses, configure custom DNS settings, and test network connectivity using PowerShell and Remote Desktop Protocol (RDP). This setup prepares us to deploy and manage Active Directory services for future projects.
+
 <br />
 
 <h2>⚠️ Prerequisites</h2>
