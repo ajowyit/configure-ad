@@ -9,6 +9,7 @@ In this project, we will walk through comfiguring and deploying an Active Direct
 <br />
 
 <h2>⚠️ Prerequisites</h2>
+
 - [Creating Virtual Machines in the Cloud](https://github.com/ajowyit/creating-virtual-machines)
 *(Refer to this project for help creating Virtual Manchines if necessary)*
 
