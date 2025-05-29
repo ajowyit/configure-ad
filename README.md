@@ -149,6 +149,22 @@ We assign static private IP addresses, configure custom DNS settings, and test n
   - Click Windows Defender Firewall Properties. Once the Windows Defender Firewall with Advanced Security on Local Computer window pops up, for The Domain Profile, Private Profile, and Public Profile tabs, change Firewall state to Off. Click Apply and then click OK to save the changes
 </p>
 
+<br />
+
+<h2>🛠️ Step 4: Change Client-1's DNS server to DC-1</h2>
+<p>
+<img width="1433" alt="Screenshot 2025-05-28 at 10 47 17 PM" src="https://github.com/user-attachments/assets/3623cdec-5431-43ef-a54d-c2724fc70e91" />
+
+<img width="1435" alt="Screenshot 2025-05-28 at 10 48 57 PM" src="https://github.com/user-attachments/assets/92b8196d-99f6-4668-b87c-2c24d913f3dc" />
+
+</p>
+<p>
+  - Go back to the Virtual machines page in Azure. Click Client-1. Select Network settings, then click inside Network interface /IP configuration.
+</p>
+<p>
+  - Under Settings, select DNS servers. Select Custom. Inside the text field under DNS server, type in DC-1's private IP address. 
+</p>
+
 <p>
   Congratulations! We have finished setting up our Active Directory Infrastructure!
 </p>
