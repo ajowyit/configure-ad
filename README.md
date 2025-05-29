@@ -54,9 +54,19 @@ We assign static private IP addresses, configure custom DNS settings, and test n
 - Log into the Azure Portal and navigate to Resource groups.
 </p>
 <p>
-- Create a new resource group and two virtual machines. Make sure that the virtual machines are in the same Virtual Network and Region. 
+- Create a new resource group.
 </p>
 
+<p>
+  <img width="1011" alt="Screenshot 2025-05-28 at 8 54 07 PM" src="https://github.com/user-attachments/assets/d8ef9e73-5a32-4cbf-95bb-e87c3dfa050a" />
+
+  <img width="1481" alt="Screenshot 2025-05-28 at 9 13 04 PM" src="https://github.com/user-attachments/assets/a363b35a-f0fd-4c80-8d0f-73d4fbdf142b" />
+
+</p>
+
+<p>
+- Create two virtual machines. Make sure that the virtual machines are in the same   Virtual Network and Region as the resource group we created. 
+</p>
 ### 🖥️ VM #1: Domain Controller (DC-1)
 
 - **Name**: `DC-1`
