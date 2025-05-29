@@ -38,6 +38,9 @@ We assign static private IP addresses, configure custom DNS settings, and test n
 
 - Step 1: Create Resource Group, Virtual Network and Virtual Machines
 - Step 2: Assign a Static Private IP to DC-1
+- Step 3: Disable Domain Controller Firewall
+- Step 4: Change Client-1's DNS server to DC-1
+- Step 5: Test the connection between DC-1 and Client-1
 
 <h2>🛠️ Step 1: Create Resource Group, Virtual Network and Virtual Machines</h2>
 
