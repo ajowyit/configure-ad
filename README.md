@@ -12,26 +12,32 @@ We assign static private IP addresses, configure custom DNS settings, and test n
 
 <h2>⚠️ Prerequisites</h2>
 - [Creating Virtual Machines in the Cloud](https://github.com/ajowyit/creating-virtual-machines)
-<p>(Refer to this project for help creating Virtual Manchines if necessary)</p>
+*(Refer to this project for help creating Virtual Manchines if necessary)*
+
+- A Microsoft Azure account and subscription with access to:
+  - Resource Group creation
+  - Virtula Network configuration
+  - Deployment of Windows Server and Windows 10 virtual machines
+
+- Remote Desktop Connection (RDP) access and the Windows App
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Remote Desktop (Windows App)
 - Active Directory Domain Services
 - PowerShell
 
 <h2>Operating Systems Used </h2>
 
+- macOS Sequoia
 - Windows Server 2022
 - Windows 10 (21H2)
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1: Create Resource Group and Virtual Machines
+- Step 2: Assign a Static Private IP to DC-1
 
 <h2>Deployment and Configuration Steps</h2>
 
