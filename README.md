@@ -119,6 +119,37 @@ We assign static private IP addresses, configure custom DNS settings, and test n
   <img width="1436" alt="Screenshot 2025-05-28 at 10 36 40 PM" src="https://github.com/user-attachments/assets/dfe554dc-6c1b-4cc3-a8ea-4b7746219c8d" />
 </p>
 <p>
-  - Confirm our changes were saved by looking to see that out Private IP address is static. Congratulations! We have finished setting up our Active Directory Infrastructure!
+  - Confirm our changes were saved by looking to see that out Private IP address is static. 
+</p>
+
+<br />
+
+<h2>🛠️ Step 3: Disable Domain Controller Firewall </h2>
+
+<p>
+<img width="797" alt="Screenshot 2025-05-28 at 10 45 31 PM" src="https://github.com/user-attachments/assets/a60b44ab-e1ac-473f-b628-ee01e08e3b53" />
+
+<img width="419" alt="Screenshot 2025-05-28 at 10 45 40 PM" src="https://github.com/user-attachments/assets/24d19f0f-af44-4c08-b12d-284e9697d4e9" />
+
+<img width="1047" alt="Screenshot 2025-05-28 at 10 45 52 PM" src="https://github.com/user-attachments/assets/8bf02745-7cd3-44c1-a64d-8b2afa69e8a4" />
+  
+</p>
+
+<p>
+- In DC-1, search for Run at the bottom search bar and then open Run or right-click the Start Menu and open Run. Once open, Ttpe wf.msc and click OK. This will open firewall settings for DC-1. 
+</p>
+
+<p>
+  <img width="1047" alt="Screenshot 2025-05-28 at 10 45 52 PM copy" src="https://github.com/user-attachments/assets/43e1cdb7-9ac0-4a90-8ca0-a9c1143fad4d" />
+<img width="402" alt="Screenshot 2025-05-28 at 10 46 01 PM" src="https://github.com/user-attachments/assets/63496841-3fd1-4426-9494-03febdc288d7" />
+<img width="404" alt="Screenshot 2025-05-28 at 10 46 16 PM" src="https://github.com/user-attachments/assets/2812bd21-cff9-49fc-b4d1-655d94fe1589" />
+</p>
+
+<p>
+  - Click Windows Defender Firewall Properties. Once the Windows Defender Firewall with Advanced Security on Local Computer window pops up, for The Domain Profile, Private Profile, and Public Profile tabs, change Firewall state to Off. Click Apply and then click OK to save the changes
+</p>
+
+<p>
+  Congratulations! We have finished setting up our Active Directory Infrastructure!
 </p>
 <br />
