@@ -10,7 +10,7 @@ In this project, we set up the foundation for an Active Directory environment in
 We assign static private IP addresses, configure custom DNS settings, and test network connectivity using PowerShell and Remote Desktop Protocol (RDP). This setup prepares us to deploy and manage Active Directory services for future projects.
 <br />
 
-<h2>⚠️ Prerequisite</h2>
+<h2>⚠️ Prerequisites</h2>
 - [Creating Virtual Machines in the Cloud](https://github.com/ajowyit/creating-virtual-machines)
 <p>(Refer to this project for help creating Virtual Manchines if necessary)</p>
 
