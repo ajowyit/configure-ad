@@ -166,6 +166,37 @@ We assign static private IP addresses, configure custom DNS settings, and test n
 </p>
 
 <p>
+  <img width="1436" alt="Screenshot 2025-05-28 at 10 50 34 PM" src="https://github.com/user-attachments/assets/5a4e618b-559d-4995-af4e-b246b1277ad6" />
+</p>
+<p>
+  - Since we changed Client-1's DNS server, we should restart the virtual machine. Go back to the Virtual machine's page in Azure, select Client-1, click Restart, and click Yes to restart the virtual machine.
+</p>
+
+<br />
+<h2>🛠️ Step 5: Test the connection between DC-1 and Client-1</h2>
+<p>
+  <img width="787" alt="Screenshot 2025-05-28 at 11 08 23 PM" src="https://github.com/user-attachments/assets/b6fb1108-ed88-4a98-80aa-e3d8fd86b13d" />
+</p>
+<p>
+  - Log into Client-1 on the Windows App with a RDP connection just like how we did with DC-1 earlier. Open PowerShell. 
+</p>
+<p>
+  <img width="859" alt="Screenshot 2025-05-28 at 11 10 05 PM" src="https://github.com/user-attachments/assets/e58d1a84-48e0-4ba8-bee7-071624ef9efb" />
+
+</p>
+<p>
+  - Ping the private IP address of DC-1 with the command ping 10.0.0.4 and then observe whether we get a reply or if the request times out. If we get a reply, then it means the connection is working!
+</p>
+
+<p>
+  <img width="858" alt="Screenshot 2025-05-28 at 11 10 31 PM" src="https://github.com/user-attachments/assets/90cee524-e0a6-4924-bd57-6e7881b387d9" />
+
+</p>
+<p>
+  - Finally ensure that the DNS Server of Client-1 is set to DC-1's private IP address. To do this type the command ipconfig /all into PowerShell. Make sure under DNS Servers we see DC-1's private IP address (10.0.0.4).
+</p>
+
+<p>
   Congratulations! We have finished setting up our Active Directory Infrastructure!
 </p>
 <br />
