@@ -58,6 +58,7 @@ We assign static private IP addresses, configure custom DNS settings, and test n
 </p>
 
 <p>
+  <img width="1031" alt="Screenshot 2025-05-28 at 10 06 53 PM" src="https://github.com/user-attachments/assets/e9e11702-51af-4c7d-8acd-090463be9b6c" />
   <img width="1032" alt="Screenshot 2025-05-28 at 9 53 34 PM" src="https://github.com/user-attachments/assets/8ee3f808-c938-4df2-a93c-015ec4381cb8" />
   <img width="1021" alt="Screenshot 2025-05-28 at 9 56 42 PM" src="https://github.com/user-attachments/assets/f1412b20-6c0c-4f6c-a7e4-e5dc5b8a44c5" />
 </p>
