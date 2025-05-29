@@ -7,14 +7,12 @@
 
 In this project, we set up the foundation for an Active Directory environment in Microsoft Azure. We use a Windows Server 2022 virtual machine as the Domain Controller and a Windows 10 virtual machine as the client.
 
-We assign static private IP addresses, configure custom DNS settings, and test network connectivity using PowerShell and Remote Desktop Protocol (RDP). This setup prepares us to deploy and manage Active Directory services in a future project.
-
+We assign static private IP addresses, configure custom DNS settings, and test network connectivity using PowerShell and Remote Desktop Protocol (RDP). This setup prepares us to deploy and manage Active Directory services for future projects.
 <br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
+<h2>⚠️ Prerequisite</h2>
+- [Creating Virtual Machines in the Cloud](https://github.com/ajowyit/creating-virtual-machines)
+<p>(Refer to this project for help creating Virtual Manchines if necessary)</p>
 
 <h2>Environments and Technologies Used</h2>
 
