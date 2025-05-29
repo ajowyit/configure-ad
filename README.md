@@ -98,9 +98,7 @@ We assign static private IP addresses, configure custom DNS settings, and test n
 <h2>🛠️ Step 2: Assign a Static Private IP to DC-1</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-  
+  <img width="1428" alt="Screenshot 2025-05-28 at 10 21 45 PM" src="https://github.com/user-attachments/assets/e5ea1099-8d8e-483f-8a42-c9b97531f351" />
 </p>
 
 <p>
@@ -109,9 +107,18 @@ We assign static private IP addresses, configure custom DNS settings, and test n
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1432" alt="Screenshot 2025-05-28 at 10 23 58 PM" src="https://github.com/user-attachments/assets/747956b3-9639-4344-a6f2-32f2601c1d3e" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- Under IP Settings, click ipconfig1 to edit IP configuration. Select Static under Allocation to change the alloaction from Dynamic to Static. Click Save.
+</p>
+<p>
+-A static internal IP ensures that the DNS server (DC-1) consistently uses the same address, which is crucial for domain joining and reliable communication with client machines.
+</p>
+<p>
+  <img width="1436" alt="Screenshot 2025-05-28 at 10 36 40 PM" src="https://github.com/user-attachments/assets/dfe554dc-6c1b-4cc3-a8ea-4b7746219c8d" />
+</p>
+<p>
+  - Confirm our changes were saved by looking to see that out Private IP address is static. Congratulations, we have finished setting up our Active Directory Infrastructure!
 </p>
 <br />
