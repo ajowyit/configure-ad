@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Creating an Active Directory Infrastructure in the Cloud with Microsoft Azure</h1>
+<h1>Deployment and Configuration of Active Directory in the Cloud with Microsoft Azure</h1>
 
 
 In this project, we set up the foundation for an Active Directory environment in Microsoft Azure. We use a Windows Server 2022 virtual machine as the Domain Controller and a Windows 10 virtual machine as the client.
