@@ -45,8 +45,27 @@ We assign static private IP addresses, configure custom DNS settings, and test n
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- Log into the Azure Portal and navigate to Resource groups.
 </p>
+<p>
+- Create a new resource group and two virtual machines. Make sure that the virtual machines are in the same Virtual Network and Region. 
+</p>
+### 🖥️ VM #1: Domain Controller (DC-1)
+
+- **Name**: `DC-1`
+- **Image**: Windows Server 2022
+- **Size**: At least 2 vCPUs, 8 GiB memory 
+- **Authentication**: Password
+- **Network**: Place inside the same Virtual Network and Resource Group we created
+
+### 💻 VM #2: Client Machine (Client-1)
+
+- **Name**: `Client-1`
+- **Image**: Windows 10 Pro (22H2)
+- **Size**: At least 2 vCPUs, 8 GiB memory
+- **Authentication**: Password
+- **Network**: Make sure to use the same Virtual Network and Region as DC-1
+
 <br />
 
 <p>
