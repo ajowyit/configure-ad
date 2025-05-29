@@ -36,10 +36,10 @@ We assign static private IP addresses, configure custom DNS settings, and test n
 
 <h2>🪜 High-Level Steps</h2>
 
-- Step 1: Create Resource Group and Virtual Machines
+- Step 1: Create Resource Group, Virtual Network and Virtual Machines
 - Step 2: Assign a Static Private IP to DC-1
 
-<h2>🛠️ Step 1: Create Resource Group and Virtual Machines</h2>
+<h2>🛠️ Step 1: Create Resource Group, Virtual Network and Virtual Machines</h2>
 
 <p>
 <img width="949" alt="Screenshot 2025-05-28 at 8 50 39 PM" src="https://github.com/user-attachments/assets/3f5afa48-dc28-4436-b8b1-923299325f58" />
@@ -55,6 +55,14 @@ We assign static private IP addresses, configure custom DNS settings, and test n
 </p>
 <p>
 - Create a new resource group.
+</p>
+
+<p>
+  <img width="1032" alt="Screenshot 2025-05-28 at 9 53 34 PM" src="https://github.com/user-attachments/assets/8ee3f808-c938-4df2-a93c-015ec4381cb8" />
+  <img width="1021" alt="Screenshot 2025-05-28 at 9 56 42 PM" src="https://github.com/user-attachments/assets/f1412b20-6c0c-4f6c-a7e4-e5dc5b8a44c5" />
+</p>
+<p>
+  - Create a virtual network inside of the resource group we created. Make sure it is in the same region.
 </p>
 
 <p>
