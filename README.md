@@ -67,6 +67,7 @@ We assign static private IP addresses, configure custom DNS settings, and test n
 <p>
 - Create two virtual machines. Make sure that the virtual machines are in the same   Virtual Network and Region as the resource group we created. 
 </p>
+
 ### 🖥️ VM #1: Domain Controller (DC-1)
 
 - **Name**: `DC-1`
