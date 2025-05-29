@@ -119,6 +119,6 @@ We assign static private IP addresses, configure custom DNS settings, and test n
   <img width="1436" alt="Screenshot 2025-05-28 at 10 36 40 PM" src="https://github.com/user-attachments/assets/dfe554dc-6c1b-4cc3-a8ea-4b7746219c8d" />
 </p>
 <p>
-  - Confirm our changes were saved by looking to see that out Private IP address is static. Congratulations, we have finished setting up our Active Directory Infrastructure!
+  - Confirm our changes were saved by looking to see that out Private IP address is static. Congratulations! We have finished setting up our Active Directory Infrastructure!
 </p>
 <br />
