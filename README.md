@@ -39,7 +39,7 @@ We assign static private IP addresses, configure custom DNS settings, and test n
 - Step 1: Create Resource Group and Virtual Machines
 - Step 2: Assign a Static Private IP to DC-1
 
-<h2>⚙️ Deployment and Configuration Steps</h2>
+<h2>🛠️ Step 1: Create Resource Group and Virtual Machines</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
